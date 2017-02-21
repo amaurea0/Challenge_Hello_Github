@@ -10,3 +10,12 @@ Pour créer un nouveau commit :
  git commit -m "[description de la modification]"
 - Envoie du commit sur le dépôt en ligne sur github
  git push -u [nom_dépot] [nom_branche] 
+
+Dernier ajout : 
+Connexion GitHub - Git par SSH ou HTTPS, création d'un dépot distant
+
+HTTPS :
+git remote add [nom_dépot] https://github.com/[login]/[nom_dépot].git
+
+SSH :
+git remote add [nom_dépot] git@github.com:[login]/[nom_dépot].git
